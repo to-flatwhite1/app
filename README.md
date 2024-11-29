@@ -1,4 +1,8 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![react_project](https://github.com/user-attachments/assets/13155036-9771-444e-8f10-8de0110a9ffc)
+
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-![Uploading react_project.png…]()
+app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
