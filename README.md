@@ -1,40 +1,21 @@
-![react_project](https://github.com/user-attachments/assets/13155036-9771-444e-8f10-8de0110a9ffc)
+# 영화 API를 활용한 넷플릭스 클론 프로젝트
 
+이 프로젝트는 **React**, **Chakra UI**, **Tailwind CSS**, **Swiper**를 사용하여 **TMDb API**에서 데이터를 가져와 영화 정보를 보여주는 넷플릭스 클론입니다. Swiper를 사용하여 영화 정보를 캐러셀 형태로 표시합니다.
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-![Uploading react_project.png…]()
-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## 💡 주요 기능
 
-## Getting Started
+- **영화 캐러셀**: TMDb API에서 가져온 상영 예정 영화들을 Swiper 캐러셀로 표시합니다.
+- **영화 상세 정보**: 영화의 제목, 개봉일, 평점(투표 평균)을 표시합니다.
+- **반응형 레이아웃**: Tailwind CSS를 사용하여 다양한 화면 크기에 적응하는 반응형 디자인을 제공합니다.
+- **아름다운 UI 컴포넌트**: Chakra UI를 사용하여 버튼, 레이아웃 및 다른 UI 요소들을 구성합니다.
 
-First, run the development server:
+## 🛠️ 사용된 기술
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **React**: 사용자 인터페이스를 구축하기 위한 JavaScript 라이브러리.
+- **Chakra UI**: React를 위한 간단하고 모듈화된 접근 가능한 컴포넌트 라이브러리.
+- **Tailwind CSS**: 사용자 정의 디자인을 빠르게 구축할 수 있는 유틸리티 우선 CSS 프레임워크.
+- **Swiper**: 캐러셀 및 슬라이드쇼를 생성하기 위한 최신 모바일 터치 슬라이더 라이브러리.
+- **TMDb API**: 영화 데이터를 가져오기 위한 영화 데이터베이스 API.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🚀 
+![react_project](https://github.com/user-attachments/assets/4a2fe867-a0f5-4002-9c47-50237c14b7e6)
