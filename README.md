@@ -1,6 +1,6 @@
 # 영화 API를 활용한 넷플릭스 클론 프로젝트
 
-이 프로젝트는 **React**, **Chakra UI**, **Tailwind CSS**, **Swiper**를 사용하여 **TMDb API**에서 데이터를 가져와 영화 정보를 보여주는 넷플릭스 클론입니다. Swiper를 사용하여 영화 정보를 캐러셀 형태로 표시합니다.
+이 프로젝트는 **React**, **Chakra UI**, **Tailwind CSS**, **Swiper**를 사용하여 **TMDb API**에서 데이터를 가져와 영화 정보를 보여주는 넷플릭스 클론입니다. <br>Swiper를 사용하여 영화 정보를 캐러셀 형태로 표시합니다.
 
 ## 💡 주요 기능
 
