@@ -17,5 +17,7 @@
 - **Swiper**: 캐러셀 및 슬라이드쇼를 생성하기 위한 최신 모바일 터치 슬라이더 라이브러리.
 - **TMDb API**: 영화 데이터를 가져오기 위한 영화 데이터베이스 API.
 
-## 🚀 
+
+
+
 ![react_project](https://github.com/user-attachments/assets/4a2fe867-a0f5-4002-9c47-50237c14b7e6)
