@@ -32,7 +32,6 @@ export default function SlideSwiper() {
             .then((res) => res.json())
             .then((data) => {
                 setSlide(data.results); // API에서 가져온 데이터 상태에 저장
-                console.log(data);
             })
             .catch((err) => {
                 console.error('Error fetching data:', err);

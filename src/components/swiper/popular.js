@@ -12,12 +12,12 @@ import '../../app/globals.css';
 import { Pagination } from 'swiper/modules';
 import Image from 'next/image';
 
-export default function TopRatedSwiper() {
+export default function PopularSwiper() {
     const [section, setSection] = useState([]); // 초기값을 빈 배열로 설정
 
     useEffect(() => {
         fetch(
-            `https://api.themoviedb.org/3/movie/top_rated?api_key=${process.env.NEXT_PUBLIC_SLIDE_API_KEY}&language=ko-KR&page=1`
+            `https://api.themoviedb.org/3/movie/popular?api_key=${process.env.NEXT_PUBLIC_SLIDE_API_KEY}&language=ko-KR&page=1`
         )
             .then((res) => res.json())
             .then((data) => {
@@ -37,7 +37,7 @@ export default function TopRatedSwiper() {
                     clickable: true,
                 }} */
                 modules={[Pagination]}
-                className="h-[20rem] "
+                className="h-[18rem] "
                 style={{
                     width: '100%',
                 }}
@@ -52,7 +52,7 @@ export default function TopRatedSwiper() {
                                 height={234}
                                 className="object-cover object-center rounded-2xl h-[13rem] relative"
                             />
-                            <span className="absolute bottom-[110px] left-2 text-white text-4xl font-bold z-10 italic">
+                            <span className="absolute bottom-24 left-2 text-white text-4xl font-bold z-10 italic">
                                 {index + 1} {/* 배열의 인덱스 번호를 1부터 시작하도록 +1 */}
                             </span>
                             <div className="font-bold text-white mt-2">

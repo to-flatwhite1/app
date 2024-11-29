@@ -11,7 +11,7 @@ import 'swiper/css/navigation';
 import { Pagination, Navigation } from 'swiper/modules';
 import Image from 'next/image';
 
-export default function SectionSwiper() {
+export default function NowPlayingSwiper() {
     const [section, setSection] = useState([]); // 초기값을 빈 배열로 설정
 
     useEffect(() => {
@@ -21,7 +21,6 @@ export default function SectionSwiper() {
             .then((res) => res.json())
             .then((data) => {
                 setSection(data.results); // API에서 가져온 데이터를 상태에 저장
-                console.log(data);
             })
             .catch((err) => {
                 console.error('Error fetching data:', err);
