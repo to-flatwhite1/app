@@ -15,9 +15,6 @@
 - **Chakra UI**: React를 위한 간단하고 모듈화된 접근 가능한 컴포넌트 라이브러리.
 - **Tailwind CSS**: 사용자 정의 디자인을 빠르게 구축할 수 있는 유틸리티 우선 CSS 프레임워크.
 - **Swiper**: 캐러셀 및 슬라이드쇼를 생성하기 위한 최신 모바일 터치 슬라이더 라이브러리.
-- **TMDb API**: 영화 데이터를 가져오기 위한 영화 데이터베이스 API.
-
-
-
+- **TMDb API**: 영화 데이터를 가져오기 위한 영화 데이터베이스 API
 
 ![react_project](https://github.com/user-attachments/assets/4a2fe867-a0f5-4002-9c47-50237c14b7e6)
